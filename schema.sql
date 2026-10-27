@@ -1,7 +1,4 @@
 
-CREATE DATABASE IF NOT EXISTS bank_management;
-USE bank_management;
-
 CREATE TABLE IF NOT EXISTS customers (
     customer_id INT PRIMARY KEY,
     customer_name VARCHAR(100) NOT NULL,
